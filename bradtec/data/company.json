@@ -1,0 +1,55 @@
+{
+    "name": "BRADTEC CO. LTD",
+    "short_name": "BRADTEC",
+    "tagline": "The Epic of Excellence",
+    "description": "BRADTEC CO. LTD is a multi-industry company delivering professional construction, responsible mining, premium real estate development, and reliable transportation and international trade solutions.",
+    "phone": "+255 743 123 786",
+    "email": "info@bradtec.com",
+    "whatsapp": "+000 000 000 000",
+    "address": "123 Corporate Avenue, City, Country",
+    "hours": "Mon – Fri: 8:00 AM – 5:00 PM | Sat: 8:00 AM - 1:00 PM",
+    "social": {
+        "facebook": "#",
+        "instagram": "#",
+        "linkedin": "#",
+        "youtube": "#",
+        "x": "#"
+    },
+    "stats": [
+        {
+            "label": "Years of Experience",
+            "value": 6,
+            "suffix": "+"
+        },
+        {
+            "label": "Projects Completed",
+            "value": 32,
+            "suffix": "+"
+        },
+        {
+            "label": "Core Industries",
+            "value": 5,
+            "suffix": ""
+        },
+        {
+            "label": "Commitment to Excellence",
+            "value": 97,
+            "suffix": "%"
+        }
+    ],
+    "who_we_are": "At BRADTEC CO. LTD, we don't just build structures, extract minerals, or transport goods—we engineer progress. Our foundation is built on professionalism, trust, and an unwavering commitment to delivering top-tier services that enhance communities and industries alike. With every project we undertake, we strive to set new standards for quality, efficiency, and integrity.",
+    "mission": "To deliver reliable, innovative, sustainable, and high-quality solutions across construction, mining, real estate, and transportation while creating lasting value for our clients, partners, employees, and communities.",
+    "vision": "To become a leading multi-industry company recognized for excellence, innovation, integrity, and sustainable development.",
+    "values": [
+        "Integrity",
+        "Excellence",
+        "Innovation",
+        "Professionalism",
+        "Trust",
+        "Sustainability",
+        "Safety",
+        "Customer Satisfaction"
+    ],
+    "phone2": "",
+    "map_embed": ""
+}

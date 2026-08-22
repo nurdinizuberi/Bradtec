@@ -1,0 +1,254 @@
+[
+    {
+        "id": "pr-con-4",
+        "division": "construction",
+        "name": "Renovation & Engineering Services",
+        "category": "Renovation",
+        "image": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1200&q=80",
+        "description": "Structural renovations, retrofits and professional engineering services that extend the life and value of existing assets.",
+        "features": [
+            "Structural retrofits",
+            "Refurbishment works",
+            "Engineering consultancy",
+            "Facility upgrades"
+        ],
+        "specifications": {
+            "Services": "Survey, design, execution",
+            "Sectors": "Commercial & industrial",
+            "Approach": "Minimal-disruption works"
+        },
+        "gallery": [
+            "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=1200&q=80"
+        ],
+        "location": "",
+        "availability": "",
+        "transport_type": "",
+        "coverage": "",
+        "capabilities": []
+    },
+    {
+        "id": "pr-min-2",
+        "division": "mining",
+        "name": "Surface Mining Operations",
+        "category": "Extraction",
+        "image": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1200&q=80",
+        "description": "Efficient, safe surface mining and extraction operations managed to the highest environmental and safety standards.",
+        "features": [
+            "Open-pit operations",
+            "Material handling",
+            "Waste management",
+            "Safety-first execution"
+        ],
+        "specifications": {
+            "Scale": "Project-based operations",
+            "HSE": "Certified safety systems",
+            "Environment": "Managed rehabilitation"
+        },
+        "gallery": [
+            "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1200&q=80"
+        ],
+        "location": "",
+        "availability": "Available on request",
+        "transport_type": "",
+        "coverage": "",
+        "capabilities": []
+    },
+    {
+        "id": "pr-min-3",
+        "division": "mining",
+        "name": "Mineral Processing & Handling",
+        "category": "Processing",
+        "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1200&q=80",
+        "description": "Processing, grading and handling services that prepare extracted resources for market with minimal waste.",
+        "features": [
+            "Crushing & screening",
+            "Grading & quality control",
+            "Storage & dispatch",
+            "Efficiency optimization"
+        ],
+        "specifications": {
+            "Services": "Process design to operations",
+            "Quality": "Batch traceability",
+            "Capacity": "Scalable to project needs"
+        },
+        "gallery": [
+            "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1200&q=80"
+        ],
+        "location": "",
+        "availability": "Available on request",
+        "transport_type": "",
+        "coverage": "",
+        "capabilities": []
+    },
+    {
+        "id": "pr-min-4",
+        "division": "mining",
+        "name": "Mine Site Rehabilitation",
+        "category": "Sustainability",
+        "image": "https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?auto=format&fit=crop&w=1200&q=80",
+        "description": "Post-operation site rehabilitation and environmental restoration that returns land to communities in better condition.",
+        "features": [
+            "Land restoration",
+            "Vegetation & ecology programs",
+            "Water management",
+            "Community handover"
+        ],
+        "specifications": {
+            "Approach": "Cradle-to-grave stewardship",
+            "Monitoring": "Post-handover checks",
+            "Partners": "Local authorities & communities"
+        },
+        "gallery": [
+            "https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1200&q=80"
+        ],
+        "location": "",
+        "availability": "Available on request",
+        "transport_type": "",
+        "coverage": "",
+        "capabilities": []
+    },
+    {
+        "id": "pr-tra-1",
+        "division": "transportation",
+        "name": "Freight Forwarding",
+        "category": "Freight",
+        "image": "https://images.unsplash.com/photo-1605745341112-85968b19335b?auto=format&fit=crop&w=1200&q=80",
+        "description": "End-to-end freight forwarding by sea, air and road, with documentation, consolidation and tracking handled for you.",
+        "features": [
+            "Sea & air freight",
+            "Consolidation",
+            "Documentation",
+            "Real-time tracking"
+        ],
+        "specifications": [],
+        "gallery": [
+            "https://images.unsplash.com/photo-1605745341112-85968b19335b?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?auto=format&fit=crop&w=1200&q=80"
+        ],
+        "location": "",
+        "availability": "",
+        "transport_type": "Sea, air, road",
+        "coverage": "Domestic & international",
+        "capabilities": [
+            "Door-to-door delivery",
+            "Customs handling",
+            "Cargo insurance coordination"
+        ]
+    },
+    {
+        "id": "pr-tra-2",
+        "division": "transportation",
+        "name": "Import & Export Clearing",
+        "category": "Import/Export",
+        "image": "https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?auto=format&fit=crop&w=1200&q=80",
+        "description": "Full import and export support — customs clearance, compliance, permits and documentation — so your goods move without delay.",
+        "features": [
+            "Customs clearance",
+            "Permits & compliance",
+            "Trade documentation",
+            "Duty & tax advisory"
+        ],
+        "specifications": [],
+        "gallery": [
+            "https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=1200&q=80"
+        ],
+        "location": "",
+        "availability": "",
+        "transport_type": "Sea, air, road",
+        "coverage": "International trade routes",
+        "capabilities": [
+            "HS-code classification",
+            "Origin documentation",
+            "Regulatory liaison"
+        ]
+    },
+    {
+        "id": "pr-tra-3",
+        "division": "transportation",
+        "name": "Cargo Haulage & Distribution",
+        "category": "Cargo",
+        "image": "https://images.unsplash.com/photo-1494412651409-8963ce7935a7?auto=format&fit=crop&w=1200&q=80",
+        "description": "Reliable road haulage and last-mile distribution with a modern fleet and disciplined scheduling.",
+        "features": [
+            "Trucking fleet",
+            "Route planning",
+            "Last-mile delivery",
+            "Secure handling"
+        ],
+        "specifications": [],
+        "gallery": [
+            "https://images.unsplash.com/photo-1494412651409-8963ce7935a7?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1200&q=80"
+        ],
+        "location": "",
+        "availability": "",
+        "transport_type": "Road",
+        "coverage": "Regional & cross-border",
+        "capabilities": [
+            "Bulk & general cargo",
+            "Temperature-controlled options",
+            "Tracked deliveries"
+        ]
+    },
+    {
+        "id": "pr-tra-4",
+        "division": "transportation",
+        "name": "Warehousing & Container Services",
+        "category": "Logistics",
+        "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1200&q=80",
+        "description": "Secure warehousing, container handling and inventory management that keep your supply chain efficient.",
+        "features": [
+            "Secure storage",
+            "Container handling",
+            "Inventory management",
+            "Order fulfilment"
+        ],
+        "specifications": [],
+        "gallery": [
+            "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=1200&q=80"
+        ],
+        "location": "",
+        "availability": "",
+        "transport_type": "Multi-modal",
+        "coverage": "Warehouse & hub locations",
+        "capabilities": [
+            "Short & long-term storage",
+            "Cross-docking",
+            "Stock reporting"
+        ]
+    },
+    {
+        "id": "pr-con-1",
+        "division": "construction",
+        "name": "Commercial Building Construction",
+        "category": "Commercial Buildings",
+        "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80",
+        "description": "Design and delivery of commercial buildings — offices, retail and mixed-use developments — engineered for durability, efficiency and impact.",
+        "features": [
+            "Structural engineering",
+            "Turnkey delivery",
+            "Interior finishing",
+            "Project management"
+        ],
+        "specifications": {
+            "Typical scale": "2 – 20 storeys",
+            "Delivery model": "Turnkey / design-build",
+            "Standards": "ISO 9001 quality systems"
+        },
+        "gallery": [
+            "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80"
+        ],
+        "location": "",
+        "availability": "",
+        "transport_type": "",
+        "coverage": "",
+        "capabilities": []
+    }
+]

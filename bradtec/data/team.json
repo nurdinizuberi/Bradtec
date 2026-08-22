@@ -1,0 +1,68 @@
+[
+    {
+        "id": "tm-001",
+        "name": "John Mwangi",
+        "role": "Chief Executive Officer",
+        "bio": "Visionary leader with over 15 years of experience in construction and multi-industry management across East Africa.",
+        "image": "",
+        "social_instagram": "",
+        "social_facebook": "",
+        "social_linkedin": "https://tz.linkedin.com/",
+        "social_discord": ""
+    },
+    {
+        "id": "tm-002",
+        "name": "Sarah Kimaro",
+        "role": "Chief Operations Officer",
+        "bio": "Operations expert ensuring seamless execution across all four BRADTEC divisions with a focus on efficiency and quality.",
+        "image": "",
+        "social_instagram": "",
+        "social_facebook": "",
+        "social_linkedin": "",
+        "social_discord": ""
+    },
+    {
+        "id": "tm-003",
+        "name": "David Mwakilima",
+        "role": "Head of Engineering",
+        "bio": "Chartered engineer leading technical design, project planning and construction delivery for major infrastructure projects.",
+        "image": "",
+        "social_instagram": "",
+        "social_facebook": "",
+        "social_linkedin": "",
+        "social_discord": ""
+    },
+    {
+        "id": "tm-004",
+        "name": "Grace Mushi",
+        "role": "Projects Director",
+        "bio": "Manages end-to-end project delivery across construction, mining and real estate with a track record of on-time completions.",
+        "image": "",
+        "social_instagram": "",
+        "social_facebook": "",
+        "social_linkedin": "",
+        "social_discord": ""
+    },
+    {
+        "id": "tm-005",
+        "name": "James Mwakasege",
+        "role": "Head of Mining Operations",
+        "bio": "Mining specialist with deep expertise in responsible extraction, mineral processing and environmental rehabilitation.",
+        "image": "",
+        "social_instagram": "",
+        "social_facebook": "",
+        "social_linkedin": "",
+        "social_discord": ""
+    },
+    {
+        "id": "tm-006",
+        "name": "Fatima Hassan",
+        "role": "Transport & Logistics Manager",
+        "bio": "Oversees freight, cargo and international trade operations, keeping supply chains moving across borders reliably.",
+        "image": "",
+        "social_instagram": "",
+        "social_facebook": "",
+        "social_linkedin": "",
+        "social_discord": ""
+    }
+]

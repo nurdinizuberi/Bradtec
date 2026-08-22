@@ -1,0 +1,22 @@
+# Secrets — never commit
+.env
+
+# Visitor PII / runtime state (auto-generated, not content)
+**/data/inquiries.json
+**/data/login_attempts.json
+**/data/contact_attempts.json
+**/data/*.lock
+
+# User-uploaded media
+**/assets/uploads/
+
+# Backups
+**/bradtec-backups/
+
+# Deployment packages
+**/deploy/
+*.tar.gz
+
+# OS junk
+.DS_Store
+Thumbs.db

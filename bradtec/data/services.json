@@ -1,0 +1,97 @@
+[
+    {
+        "id": "construction",
+        "name": "Construction",
+        "tagline": "Building infrastructure and development solutions",
+        "hero_heading": "Building Today. Shaping Tomorrow.",
+        "hero_sub": "Creating durable and innovative infrastructure that shapes skylines and transforms landscapes.",
+        "accent": "blue",
+        "image": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=1600&q=80",
+        "overview": "From residential developments to large-scale civil works, our construction division combines engineering discipline with modern technology to deliver structures built to last. We manage every stage — planning, design, construction and handover — with rigorous quality control and safety standards.",
+        "capabilities": [
+            "Building & civil construction",
+            "Road and infrastructure works",
+            "Commercial and residential development",
+            "Renovation and engineering services",
+            "Project planning and site management",
+            "Quality assurance and safety compliance"
+        ],
+        "equipment": [
+            "Modern heavy machinery and plant",
+            "Advanced surveying and design tools",
+            "Skilled engineering and site teams",
+            "Certified quality and safety systems"
+        ],
+        "quote_label": "Request a Quote"
+    },
+    {
+        "id": "mining",
+        "name": "Mining",
+        "tagline": "Responsible resource extraction and mining solutions",
+        "hero_heading": "Responsible Resources. Sustainable Progress.",
+        "hero_sub": "Harnessing modern technology to responsibly extract valuable resources while prioritizing sustainability and safety.",
+        "accent": "green",
+        "image": "https://images.unsplash.com/photo-1517089152318-42ec560349c0?auto=format&fit=crop&w=1600&q=80",
+        "overview": "Our mining division applies modern technology and strict environmental stewardship to resource extraction. Every operation is planned with sustainability, community responsibility and the highest safety standards at its core, so that value is created for generations rather than extracted at their expense.",
+        "capabilities": [
+            "Exploration and feasibility studies",
+            "Surface mining and extraction operations",
+            "Mineral processing and handling",
+            "Mine site rehabilitation and environmental care",
+            "Geological and technical surveying",
+            "Safety-first site management"
+        ],
+        "equipment": [
+            "Modern extraction and processing equipment",
+            "Geological survey and analysis tools",
+            "Environmental monitoring systems",
+            "Certified safety protocols and trained crews"
+        ],
+        "quote_label": "Request Information"
+    },
+    {
+        "id": "real-estate",
+        "name": "Real Estate",
+        "tagline": "Premium properties and investment opportunities",
+        "hero_heading": "Premium Spaces. Exceptional Opportunities.",
+        "hero_sub": "Developing premium properties designed around comfort, security, luxury, and long-term investment opportunities.",
+        "accent": "blue",
+        "image": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1600&q=80",
+        "overview": "Our real estate division develops and manages premium residential and commercial properties. From family homes to commercial spaces and investment land, every property is designed around comfort, security and lasting value — with transparent processes from first viewing to final handover.",
+        "capabilities": [
+            "Residential and commercial developments",
+            "Land acquisition and investment opportunities",
+            "Property management and sales",
+            "Design-driven, secure developments",
+            "Transparent legal and transaction support",
+            "Client-focused aftercare services"
+        ],
+        "equipment": [],
+        "quote_label": "Contact Our Team"
+    },
+    {
+        "id": "transportation",
+        "name": "Transportation",
+        "tagline": "Transportation, logistics, import and export solutions",
+        "hero_heading": "Connecting Markets. Moving Opportunities.",
+        "hero_sub": "Facilitating seamless global trade through reliable, efficient, and secure transportation and logistics solutions.",
+        "accent": "green",
+        "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1600&q=80",
+        "overview": "Our transportation and logistics division keeps supply chains moving — by road, sea and air. From freight forwarding and cargo handling to import/export clearing and distribution, we provide reliable, efficient and secure solutions that connect businesses to markets near and far.",
+        "capabilities": [
+            "Freight forwarding and cargo haulage",
+            "Import and export clearing",
+            "Container and bulk shipping coordination",
+            "Warehousing and distribution",
+            "Customs and documentation support",
+            "Fleet and route management"
+        ],
+        "equipment": [
+            "Modern trucking and haulage fleet",
+            "Partner shipping and air cargo network",
+            "Warehousing and handling facilities",
+            "Tracking and documentation systems"
+        ],
+        "quote_label": "Request a Quote"
+    }
+]

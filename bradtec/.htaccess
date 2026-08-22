@@ -1,0 +1,48 @@
+# ============================================================
+# BRADTEC CO. LTD — Apache configuration (Hostinger hPanel)
+# ============================================================
+
+Options -Indexes
+
+# --- Custom error pages ---
+ErrorDocument 404 /404.php
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+# --- Force HTTPS (remove/comment out if SSL is not yet active on your host) ---
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# --- Clean URLs: /about -> about.php, /services/construction -> services/construction.php ---
+# Redirect /index.php to /
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+index\.php[?\s] [NC]
+RewriteRule ^index\.php$ / [L,R=301]
+
+# Map extension-less paths to .php files
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*?)/?$ $1.php [L]
+</IfModule>
+
+# --- Security headers ---
+<IfModule mod_headers.c>
+  Header set X-Content-Type-Options "nosniff"
+  Header set X-Frame-Options "SAMEORIGIN"
+  Header set X-XSS-Protection "1; mode=block"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+  Header set Permissions-Policy "geolocation=(), microphone=(), camera=()"
+  Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+  Header set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self'; frame-src https://www.google.com https://www.youtube.com"
+</IfModule>
+
+# --- Caching for static assets ---
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType image/jpeg "access plus 1 month"
+  ExpiresByType image/png "access plus 1 month"
+  ExpiresByType image/svg+xml "access plus 1 month"
+  ExpiresByType text/css "access plus 1 week"
+  ExpiresByType application/javascript "access plus 1 week"
+</IfModule>

@@ -1,0 +1,169 @@
+[
+    {
+        "id": "prop-1",
+        "name": "The Executive Residence",
+        "type": "House",
+        "category": "Residential",
+        "status": "Available",
+        "price": "Tshs 25,000,000",
+        "size": "350 m²",
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "location": "Sample District, City",
+        "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80",
+        "gallery": [
+            "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=1200&q=80"
+        ],
+        "features": [
+            "Modern finishes",
+            "Secure gated estate",
+            "En-suite bedrooms",
+            "Ample parking"
+        ],
+        "description": "A premium family residence with contemporary finishes, designed for comfort, security and long-term value. Sample listing — replace with actual BRADTEC property details."
+    },
+    {
+        "id": "prop-2",
+        "name": "Skyline Office Suites",
+        "type": "Office",
+        "category": "Commercial",
+        "status": "Available",
+        "price": "On Request",
+        "size": "600 m²",
+        "bedrooms": 0,
+        "bathrooms": 2,
+        "location": "Central Business District",
+        "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80",
+        "gallery": [
+            "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80"
+        ],
+        "features": [
+            "Prime location",
+            "Modern infrastructure",
+            "Flexible layouts",
+            "Secure access"
+        ],
+        "description": "Professional office space in a prime commercial location, ready for fit-out. Sample listing — replace with actual BRADTEC property details."
+    },
+    {
+        "id": "prop-3",
+        "name": "Greenfield Residential Land",
+        "type": "Land",
+        "category": "Land",
+        "status": "Coming Soon",
+        "price": "$45,000",
+        "size": "1,000 m²",
+        "bedrooms": 0,
+        "bathrooms": 0,
+        "location": "Outer Growth Corridor",
+        "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=80",
+        "gallery": [
+            "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=80"
+        ],
+        "features": [
+            "Prime investment land",
+            "Clear title",
+            "Access road",
+            "Growth area"
+        ],
+        "description": "Residential investment land in a growing corridor with strong appreciation potential. Sample listing — replace with actual BRADTEC property details."
+    },
+    {
+        "id": "prop-4",
+        "name": "Riverside Apartment",
+        "type": "Apartment",
+        "category": "Residential",
+        "status": "Reserved",
+        "price": "$120,000",
+        "size": "120 m²",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "location": "Riverside, City",
+        "image": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80",
+        "gallery": [
+            "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1200&q=80"
+        ],
+        "features": [
+            "Balcony views",
+            "24/7 security",
+            "Modern interiors",
+            "Ample parking"
+        ],
+        "description": "A well-appointed apartment with scenic views and full security. Sample listing — replace with actual BRADTEC property details."
+    },
+    {
+        "id": "prop-5",
+        "name": "Industrial Warehouse Unit",
+        "type": "Other",
+        "category": "Commercial",
+        "status": "Available",
+        "price": "On Request",
+        "size": "2,500 m²",
+        "bedrooms": 0,
+        "bathrooms": 1,
+        "location": "Industrial Park",
+        "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1200&q=80",
+        "gallery": [
+            "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=1200&q=80"
+        ],
+        "features": [
+            "High clearance",
+            "Loading bays",
+            "Secure perimeter",
+            "Easy access"
+        ],
+        "description": "Versatile industrial space suited to warehousing and light production. Sample listing — replace with actual BRADTEC property details."
+    },
+    {
+        "id": "prop-6",
+        "name": "Family Estate Home",
+        "type": "House",
+        "category": "Residential",
+        "status": "Sold",
+        "price": "$310,000",
+        "size": "420 m²",
+        "bedrooms": 5,
+        "bathrooms": 4,
+        "location": "Green Valley Estate",
+        "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80",
+        "gallery": [
+            "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=1200&q=80"
+        ],
+        "features": [
+            "Spacious interiors",
+            "Garden & outdoor space",
+            "Staff quarters",
+            "Gated community"
+        ],
+        "description": "A completed family estate home — example of our residential delivery standard. Sample listing — replace with actual BRADTEC property details."
+    },
+    {
+        "id": "prop-7",
+        "name": "High Street Retail Unit",
+        "type": "Other",
+        "category": "Commercial",
+        "status": "Available",
+        "price": "On Request",
+        "size": "180 m²",
+        "bedrooms": 0,
+        "bathrooms": 1,
+        "location": "High Street, City",
+        "image": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=80",
+        "gallery": [
+            "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=80"
+        ],
+        "features": [
+            "Prime retail location",
+            "High footfall",
+            "Shopfront & storage",
+            "Secure premises"
+        ],
+        "description": "A prime retail unit on a busy high street, ideal for established brands. Sample listing — replace with actual BRADTEC property details."
+    }
+]

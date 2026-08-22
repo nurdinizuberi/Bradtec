@@ -1,0 +1,89 @@
+[
+    {
+        "id": "pr-con-2",
+        "division": "construction",
+        "name": "Road & Civil Infrastructure",
+        "category": "Infrastructure",
+        "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80",
+        "description": "Construction of roads, drainage and civil infrastructure that connects communities and enables development.",
+        "features": [
+            "Earthworks & grading",
+            "Pavement construction",
+            "Drainage systems",
+            "Bridge & culvert works"
+        ],
+        "specifications": {
+            "Scope": "Urban & rural roads",
+            "Compliance": "Local & international specs",
+            "HSE": "Site-wide safety plans"
+        },
+        "gallery": [
+            "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=1200&q=80"
+        ],
+        "location": "",
+        "availability": "",
+        "transport_type": "",
+        "coverage": "",
+        "capabilities": [],
+        "deleted_at": "2026-08-22 08:08:49"
+    },
+    {
+        "id": "pr-con-3",
+        "division": "construction",
+        "name": "Residential Construction",
+        "category": "Residential Construction",
+        "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+        "description": "Homes and residential developments built around comfort, durability and modern living standards.",
+        "features": [
+            "Custom home building",
+            "Estate developments",
+            "Modern finishing",
+            "Quality handover"
+        ],
+        "specifications": {
+            "Housing types": "Detached, semi-detached, apartments",
+            "Warranty": "Post-handover support",
+            "Standards": "Engineered to code"
+        },
+        "gallery": [
+            "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1200&q=80"
+        ],
+        "location": "",
+        "availability": "",
+        "transport_type": "",
+        "coverage": "",
+        "capabilities": [],
+        "deleted_at": "2026-08-22 08:08:52"
+    },
+    {
+        "id": "pr-min-1",
+        "division": "mining",
+        "name": "Exploration & Feasibility Studies",
+        "category": "Exploration",
+        "image": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=1200&q=80",
+        "description": "Geological surveying, resource assessment and feasibility studies that de-risk projects before a single shovel is turned.",
+        "features": [
+            "Geological surveys",
+            "Resource estimation",
+            "Feasibility analysis",
+            "Environmental baseline studies"
+        ],
+        "specifications": {
+            "Services": "Field studies to full reports",
+            "Standards": "International reporting codes",
+            "Deliverables": "Data, maps, reports"
+        },
+        "gallery": [
+            "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1200&q=80"
+        ],
+        "location": "",
+        "availability": "Available on request",
+        "transport_type": "",
+        "coverage": "",
+        "capabilities": [],
+        "deleted_at": "2026-08-22 08:08:58"
+    }
+]
