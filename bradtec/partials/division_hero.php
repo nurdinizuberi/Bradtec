@@ -24,7 +24,7 @@ $divisionDesc = !empty($division['overview']) ? $division['overview'] : $divisio
 }
 </script>
 <section class="page-hero">
-  <div class="bg-img" style="background-image:url('<?= e($division['image']) ?>')" aria-hidden="true"></div>
+  <div class="bg-img" style="background-image:url('<?= e(str_replace(['w=1600&q=80', 'w=1600'], ['w=1200&q=75', 'w=1200'], $division['image'])) ?>')" aria-hidden="true"></div>
   <div class="container">
     <p class="crumb"><a href="<?= $ROOT ?>">Home</a> <span class="sep">/</span> <a href="<?= $ROOT ?>services">Services</a> <span class="sep">/</span> <?= e($division['name']) ?></p>
     <h1><?= e($division['hero_heading']) ?></h1>

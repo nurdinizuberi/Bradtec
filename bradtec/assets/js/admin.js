@@ -4,7 +4,7 @@
 
   var page = document.body.getAttribute('data-admin-page') || '';
   var API = '../api/crud.php?resource=';
-  var DIVISIONS = { construction: 'Construction', mining: 'Mining', 'real-estate': 'Real Estate', transportation: 'Transportation' };
+  var DIVISIONS = { construction: 'Construction', mining: 'Mining', 'real-estate': 'Real Estate', transportation: 'Transportation', 'imports-exports': 'Imports/Exports & Distribution' };
 
   /* ---------- Toast ---------- */
   var toastWrap = document.querySelector('.toast-wrap');
@@ -177,7 +177,7 @@
     projects: {
       fields: [
         { name: 'name', label: 'Project Name', required: true },
-        { name: 'category', label: 'Category', kind: 'select', options: ['Construction', 'Mining', 'Real Estate', 'Transportation'] },
+        { name: 'category', label: 'Category', kind: 'select', options: ['Construction', 'Mining', 'Real Estate', 'Transportation', 'Imports/Exports & Distribution'] },
         { name: 'location', label: 'Location' },
         { name: 'status', label: 'Status', kind: 'select', options: ['Completed', 'Ongoing', 'In Progress', 'Planned'] },
         { name: 'date', label: 'Completion / Year', hint: 'e.g. 2025 or Q2 2026' },

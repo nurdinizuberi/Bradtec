@@ -250,5 +250,27 @@
         "transport_type": "",
         "coverage": "",
         "capabilities": []
+    },
+    {
+        "division": "imports-exports",
+        "name": "Noodles",
+        "category": "Imports and exports",
+        "image": "/assets/uploads/img_20260901_050425_1ffef7ac.jpeg",
+        "description": "Excellent Noodles from China. Place your order",
+        "features": [
+            "Good",
+            "Taste",
+            "Quality"
+        ],
+        "specifications": [],
+        "location": "",
+        "availability": "",
+        "transport_type": "",
+        "coverage": "",
+        "gallery": [
+            "/assets/uploads/img_20260901_050529_80ac4733.jpeg",
+            "/assets/uploads/img_20260901_050536_18751c81.jpeg"
+        ],
+        "id": "pr-fe520993"
     }
 ]

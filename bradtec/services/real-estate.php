@@ -46,7 +46,7 @@ $properties = json_read('properties.json', []);
       </div>
       <div class="split-media reveal reveal-delay-1">
         <span class="sm-frame" aria-hidden="true"></span>
-        <img class="sm-main" src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80" alt="Premium modern residential property by BRADTEC" loading="lazy">
+        <img class="sm-main" src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=600&q=70&fm=webp" alt="Premium modern residential property by BRADTEC" width="800" height="600" loading="lazy" decoding="async">
       </div>
     </div>
   </section>

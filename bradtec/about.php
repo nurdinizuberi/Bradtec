@@ -1,7 +1,7 @@
 <?php
-$ROOT = './';
+$ROOT = '/';
 $PAGE_TITLE = 'About Us — BRADTEC CO. LTD';
-$PAGE_DESC = 'Learn about BRADTEC CO. LTD — our mission, vision and values across construction, mining, real estate and transportation.';
+$PAGE_DESC = 'Learn about BRADTEC CO. LTD — our mission, vision and values across construction, mining, real estate, transportation and imports/exports & distribution.';
 $PAGE_OG_IMAGE = 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80';
 $PAGE_CRUMBS = [['name' => 'About Us', 'url' => '/about']];
 require __DIR__ . '/partials/head.php';
@@ -13,7 +13,7 @@ $stats = $company['stats'];
 
 <main>
   <section class="page-hero">
-    <div class="bg-img" style="background-image:url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1920&q=80')" aria-hidden="true"></div>
+    <div class="bg-img" style="background-image:url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=75')" aria-hidden="true"></div>
     <div class="container">
       <p class="crumb"><a href="<?= $ROOT ?>">Home</a> <span class="sep">/</span> About Us</p>
       <h1>About BRADTEC</h1>
@@ -28,14 +28,14 @@ $stats = $company['stats'];
     <div class="container split">
       <div class="split-copy reveal">
         <span class="eyebrow">Who We Are</span>
-        <h2>Engineering Progress Across Four Industries</h2>
+        <h2>Engineering Progress Across Five Industries</h2>
         <p><?= nl2br(e($company['who_we_are'])) ?></p>
         <div class="green-rule" aria-hidden="true"></div>
-        <p>From skylines to supply chains, our integrated capabilities let us serve clients with one seamless standard of quality — construction, mining, real estate and transportation working as one company.</p>
+        <p>From skylines to supply chains, our integrated capabilities let us serve clients with one seamless standard of quality — construction, mining, real estate, transportation and imports/exports working as one company.</p>
       </div>
       <div class="split-media reveal reveal-delay-1">
         <span class="sm-frame" aria-hidden="true"></span>
-        <img class="sm-main" src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=1200&q=80" alt="BRADTEC construction site with cranes at dusk" loading="lazy">
+        <img class="sm-main" src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=600&q=70&fm=webp" alt="BRADTEC construction site with cranes at dusk" width="800" height="600" loading="lazy" decoding="async">
       </div>
     </div>
   </section>
@@ -97,7 +97,7 @@ $stats = $company['stats'];
       <div class="section-head center reveal">
         <span class="eyebrow">Our People</span>
         <h2>Leadership Team</h2>
-        <p>The experienced professionals driving BRADTEC's mission across four industries.</p>
+        <p>The experienced professionals driving BRADTEC's mission across five industries.</p>
       </div>
       <div class="team-carousel-wrap">
         <div class="team-carousel" id="teamCarousel">
@@ -164,7 +164,7 @@ $stats = $company['stats'];
     <div class="container">
       <div class="cta-band reveal">
         <h2>Let's build the future together.</h2>
-        <p>Talk to our team about your next construction, mining, real estate or transportation project.</p>
+        <p>Talk to our team about your next construction, mining, real estate, transportation or imports/exports project.</p>
         <a href="<?= $ROOT ?>contact" class="btn btn-green">Contact BRADTEC</a>
       </div>
     </div>

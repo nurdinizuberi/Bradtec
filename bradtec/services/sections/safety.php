@@ -3,7 +3,7 @@
   <div class="container split">
     <div class="split-media reveal">
       <span class="sm-frame" aria-hidden="true"></span>
-      <img class="sm-main" src="https://images.unsplash.com/photo-1693774557231-e2be6c3594e8?auto=format&fit=crop&w=1200&q=80" alt="Mining crew inside a cave — BRADTEC safety-first approach" loading="lazy">
+      <img class="sm-main" src="https://images.unsplash.com/photo-1693774557231-e2be6c3594e8?auto=format&fit=crop&w=800&q=75" alt="Mining crew inside a cave — BRADTEC safety-first approach" width="800" height="600" loading="lazy">
     </div>
     <div class="split-copy reveal reveal-delay-1">
       <span class="eyebrow">Safety</span>

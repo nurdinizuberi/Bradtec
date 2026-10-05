@@ -1,7 +1,7 @@
 <?php
-$ROOT = './';
+$ROOT = '/';
 $PAGE_TITLE = 'BRADTEC CO. LTD — Engineering Progress. Building the Future.';
-$PAGE_DESC = 'BRADTEC CO. LTD engineers progress through professional construction, responsible mining, premium real estate development, and reliable transportation and international trade solutions.';
+$PAGE_DESC = 'BRADTEC CO. LTD engineers progress through professional construction, responsible mining, premium real estate development, reliable transportation and international trade solutions, and imports/exports & distribution.';
 $PAGE_OG_IMAGE = 'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=1200&q=80';
 require __DIR__ . '/partials/head.php';
 require __DIR__ . '/partials/header.php';
@@ -23,9 +23,9 @@ $stats = $company['stats'];
       <path d="M370 30 l 28 12 M370 30 l 2 30" stroke="#12c44d" stroke-width="6" stroke-linecap="round"/>
     </svg>
     <div class="container hero-content">
-      <p class="hero-eyebrow"><span class="dot"></span> <?= e($company['name']) ?> · Construction · Mining · Real Estate · Transportation</p>
+      <p class="hero-eyebrow"><span class="dot"></span> <?= e($company['name']) ?> · Construction · Mining · Real Estate · Transportation · Imports/Exports &amp; Distribution</p>
       <h1>Engineering Progress.<br><span class="grad">Building the Future.</span></h1>
-      <p class="lead">At <?= e($company['name']) ?>, we engineer progress through professional construction, responsible mining, premium real estate development, and reliable transportation and international trade solutions.</p>
+      <p class="lead">At <?= e($company['name']) ?>, we engineer progress through professional construction, responsible mining, premium real estate development, reliable transportation and international trade solutions, and imports/exports & distribution.</p>
       <div class="hero-ctas">
         <a href="<?= $ROOT ?>services" class="btn btn-primary">Explore Our Services</a>
         <a href="<?= $ROOT ?>contact" class="btn btn-outline-light">Contact BRADTEC</a>
@@ -51,7 +51,7 @@ $stats = $company['stats'];
     <div class="container split">
       <div class="split-media reveal">
         <span class="sm-frame" aria-hidden="true"></span>
-        <img class="sm-main" src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=1200&q=80" alt="White and brown concrete building under blue sky — BRADTEC engineering excellence" loading="lazy">
+        <img class="sm-main" src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=600&q=70&fm=webp" alt="White and brown concrete building under blue sky — BRADTEC engineering excellence" width="800" height="600" loading="lazy" decoding="async">
         <div class="sm-float">
           <span class="sf-num"><span data-counter="<?= !empty($stats[0]) ? (int)$stats[0]['value'] : 10 ?>">0</span>+</span>
           <span class="sf-label">Years of<br>Engineering Progress</span>
@@ -66,7 +66,7 @@ $stats = $company['stats'];
         <ul class="highlight-list">
           <li>
             <span class="hl-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 11.1V12a10 10 0 1 1-5.9-9.1"/><path d="M22 4 12 14l-3-3"/></svg></span>
-            <span><strong>One standard of excellence</strong><p>Across construction, mining, real estate and transportation.</p></span>
+            <span><strong>One standard of excellence</strong><p>Across construction, mining, real estate, transportation and imports/exports.</p></span>
           </li>
           <li>
             <span class="hl-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-3.6 8-10V5l-8-3-8 3v7c0 6.4 8 10 8 10z"/></svg></span>
@@ -84,15 +84,15 @@ $stats = $company['stats'];
       <div class="section-head center reveal">
         <span class="eyebrow">What We Do</span>
         <h2>Our Core Services</h2>
-        <p><strong style="color:var(--blue-mid)">One company. Four industries. One standard of excellence.</strong></p>
+        <p><strong style="color:var(--blue-mid)">One company. Five industries. One standard of excellence.</strong></p>
       </div>
-      <div class="grid-2">
+      <div class="grid-services">
         <?php foreach ($services as $i => $s):
           $accent = $s['accent'] === 'green' ? 'green' : 'blue';
         ?>
-        <article class="card service-card reveal reveal-delay-<?= $i % 3 ?>">
+        <article class="card service-card compact reveal reveal-delay-<?= $i % 3 ?>">
           <div class="sc-media">
-            <img src="<?= e($s['image']) ?>" alt="<?= e($s['name']) ?> — <?= e($s['tagline']) ?>" loading="lazy">
+            <img src="<?= e(str_replace(['w=1600&q=80', 'w=1600'], ['w=800&q=75', 'w=800'], $s['image'])) ?>" alt="<?= e($s['name']) ?> — <?= e($s['tagline']) ?>" width="800" height="500" loading="lazy" decoding="async">
           </div>
           <div class="sc-body">
             <span class="sc-icon sc-<?= $accent ?>">
@@ -102,6 +102,10 @@ $stats = $company['stats'];
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20l3-9 3 4 3-8 3 5 4-12M3 21h18"/></svg>
               <?php elseif ($s['id'] === 'real-estate'): ?>
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11l9-8 9 8M5 10v10h14V10M10 20v-6h4v6"/></svg>
+              <?php elseif ($s['id'] === 'transportation'): ?>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 16V8a2 2 0 0 1 2-2h11v10M13 6h4l3 3v7M6 20a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm11 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/></svg>
+              <?php elseif ($s['id'] === 'imports-exports'): ?>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
               <?php else: ?>
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 16V8a2 2 0 0 1 2-2h11v10M13 6h4l3 3v7M6 20a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm11 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/></svg>
               <?php endif; ?>
@@ -109,7 +113,7 @@ $stats = $company['stats'];
             <h3><?= e($s['name']) ?></h3>
             <p><?= e($s['tagline']) ?>.</p>
             <div class="sc-foot">
-              <span class="sc-badge b-<?= $accent ?>"><?= $s['id'] === 'transportation' ? 'Import &amp; Export' : e($s['name']) ?></span>
+              <span class="sc-badge b-<?= $accent ?>"><?= $s['id'] === 'transportation' ? 'Import &amp; Export' : ($s['id'] === 'imports-exports' ? 'Trade &amp; Distribution' : e($s['name'])) ?></span>
               <a href="<?= $ROOT ?>services/<?= e($s['id']) ?>" class="link-arrow">Explore <span class="arrow" aria-hidden="true">→</span></a>
             </div>
           </div>
@@ -176,7 +180,7 @@ $stats = $company['stats'];
       <div class="section-head center reveal">
         <span class="eyebrow">The BRADTEC Difference</span>
         <h2>Why Choose BRADTEC?</h2>
-        <p>Four reasons partners and communities trust us with their most important projects.</p>
+        <p>Five reasons partners and communities trust us with their most important projects.</p>
       </div>
       <div class="grid-2">
         <article class="card feature-card reveal">
@@ -209,14 +213,14 @@ $stats = $company['stats'];
       <div class="section-head center reveal">
         <span class="eyebrow">Our Portfolio</span>
         <h2>Our Projects</h2>
-        <p>A selection of the work we're proud to deliver across our four industries.</p>
+        <p>A selection of the work we're proud to deliver across our five industries.</p>
       </div>
       <div class="project-grid">
         <?php foreach ($projects as $i => $p): ?>
         <article class="card project-card reveal reveal-delay-<?= $i % 3 ?>" data-category="<?= e($p['category']) ?>">
           <a href="<?= $ROOT ?>projects" class="pc-link" style="display:block">
             <div class="pc-media">
-              <img src="<?= e($p['image']) ?>" alt="<?= e($p['name']) ?>" loading="lazy">
+              <img src="<?= e(str_replace(['w=1200&q=80', 'w=1200'], ['w=600&q=75', 'w=600'], $p['image'])) ?>" alt="<?= e($p['name']) ?>" width="600" height="450" loading="lazy" decoding="async">
               <span class="pc-status <?= $p['status'] === 'Ongoing' || $p['status'] === 'In Progress' ? 'st-green' : ($p['status'] === 'Completed' ? '' : 'st-gray') ?>"><?= e($p['status']) ?></span>
             </div>
             <div class="pc-body">
@@ -261,7 +265,7 @@ $stats = $company['stats'];
     <div class="container">
       <div class="cta-band reveal">
         <h2>Ready to engineer progress with us?</h2>
-        <p>Whether it's construction, mining, real estate or transportation — let's build, develop, connect and create opportunities together.</p>
+        <p>Whether it's construction, mining, real estate, transportation or imports/exports — let's build, develop, connect and create opportunities together.</p>
         <a href="<?= $ROOT ?>contact" class="btn btn-green">Get In Touch</a>
         <a href="<?= $ROOT ?>services" class="btn btn-outline-light" style="margin-left:12px">Explore Our Services</a>
       </div>

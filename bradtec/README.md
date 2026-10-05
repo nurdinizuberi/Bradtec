@@ -68,7 +68,7 @@ bradtec/
 │
 ├── data/                      JSON content database
 │   ├── company.json           Company info, contact, mission/vision, stats
-│   ├── services.json          The four divisions
+│   ├── services.json          The five divisions
 │   ├── products.json          Products & services catalogue
 │   ├── properties.json        Real estate listings
 │   ├── projects.json          Projects portfolio
@@ -229,7 +229,7 @@ Access at: `https://your-domain.com/admin/`
 | Section | What You Can Do |
 |---------|-----------------|
 | **Dashboard** | Overview counts + recent inquiries |
-| **Services** | Edit the four divisions (names, headings, images, colors) |
+| **Services** | Edit the five divisions (names, headings, images, colors) |
 | **Products** | Add/edit/delete catalogue items for any division |
 | **Properties** | Add/edit/delete real estate listings (prices, galleries, status) |
 | **Projects** | Add/edit/delete portfolio projects (images, status, dates) |
@@ -359,7 +359,7 @@ BRADTEC_SITE_URL=http://localhost:8080
 | File | Content |
 |------|---------|
 | `company.json` | Name, contact, mission, vision, stats |
-| `services.json` | Four divisions with images and descriptions |
+| `services.json` | Five divisions with images and descriptions |
 | `products.json` | Products/services catalogue |
 | `properties.json` | Real estate listings |
 | `projects.json` | Portfolio projects |

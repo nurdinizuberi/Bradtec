@@ -1,6 +1,6 @@
 <?php
 http_response_code(404);
-$ROOT = './';
+$ROOT = '/';
 $PAGE_TITLE = 'Page Not Found (404) — BRADTEC CO. LTD';
 $PAGE_DESC = 'The page you are looking for could not be found. Explore BRADTEC CO. LTD — construction, mining, real estate and transportation services.';
 $PAGE_NOINDEX = true;
@@ -9,7 +9,7 @@ require __DIR__ . '/partials/header.php';
 ?>
 <main>
   <section class="page-hero">
-    <div class="bg-img" style="background-image:url('https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=1920&q=80')" aria-hidden="true"></div>
+    <div class="bg-img" style="background-image:url('https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=1200&q=75')" aria-hidden="true"></div>
     <div class="container">
       <p class="crumb"><a href="<?= $ROOT ?>">Home</a> <span class="sep">/</span> 404</p>
       <h1>This page could not be found.</h1>

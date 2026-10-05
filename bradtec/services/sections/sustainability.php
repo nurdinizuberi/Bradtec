@@ -18,7 +18,7 @@
     </div>
     <div class="split-media reveal reveal-delay-1">
       <span class="sm-frame" aria-hidden="true"></span>
-      <img class="sm-main" src="https://images.unsplash.com/photo-1672571055011-8c74bf640894?auto=format&fit=crop&w=1200&q=80" alt="Mining team inside a cave during exploration — BRADTEC sustainability" loading="lazy">
+      <img class="sm-main" src="https://images.unsplash.com/photo-1672571055011-8c74bf640894?auto=format&fit=crop&w=800&q=75" alt="Mining team inside a cave during exploration — BRADTEC sustainability" width="800" height="600" loading="lazy">
     </div>
   </div>
 </section>

@@ -93,5 +93,30 @@
             "Tracking and documentation systems"
         ],
         "quote_label": "Request a Quote"
+    },
+    {
+        "id": "imports-exports",
+        "name": "Imports/Exports & Distribution",
+        "tagline": "Global trade, customs clearance and distribution solutions",
+        "hero_heading": "Global Trade. Seamless Distribution.",
+        "hero_sub": "Facilitating international commerce with expert customs clearance, trade documentation and end-to-end distribution services.",
+        "accent": "blue",
+        "image": "https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?auto=format&fit=crop&w=1600&q=80",
+        "overview": "Our Imports/Exports & Distribution division connects businesses to global markets. From customs clearance and trade compliance to warehousing and last-mile distribution, we manage the entire supply chain with precision and reliability. Whether you are importing raw materials or exporting finished goods, our team ensures smooth, timely and cost-effective delivery across borders.",
+        "capabilities": [
+            "International import and export management",
+            "Customs clearance and trade compliance",
+            "Freight consolidation and documentation",
+            "Warehousing, storage and inventory management",
+            "Domestic and regional distribution",
+            "Supply chain consulting and optimization"
+        ],
+        "equipment": [
+            "Strategic warehouse and distribution centres",
+            "Modern logistics and handling equipment",
+            "Trade documentation and tracking systems",
+            "Experienced customs and compliance specialists"
+        ],
+        "quote_label": "Request a Quote"
     }
 ]

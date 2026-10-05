@@ -30,6 +30,8 @@ $ogType = (isset($PAGE_OG_TYPE) && $PAGE_OG_TYPE !== '') ? $PAGE_OG_TYPE : 'webs
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!-- GTM loaded in footer for non-render-blocking -->
+<script>window.dataLayer=window.dataLayer||[];window.gtag=function(){dataLayer.push(arguments);};</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title><?= e($PAGE_TITLE) ?></title>
@@ -54,10 +56,11 @@ $ogType = (isset($PAGE_OG_TYPE) && $PAGE_OG_TYPE !== '') ? $PAGE_OG_TYPE : 'webs
 <link rel="icon" type="image/svg+xml" href="<?= $ROOT ?>assets/favicon.svg">
 <link rel="apple-touch-icon" href="<?= e($logoLocal) ?>">
 
-<!-- Fonts -->
+<!-- Fonts: reduced to essential weights only (Manrope 700/800, Inter 400/600, Caveat 600) -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Inter:wght@400;500;600&family=Caveat:wght@600;700&display=swap" rel="stylesheet">
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Manrope:wght@700;800&family=Inter:wght@400;600&family=Caveat:wght@600&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@700;800&family=Inter:wght@400;600&family=Caveat:wght@600&display=swap" rel="stylesheet"></noscript>
 
 <!-- Styles -->
 <link rel="preload" href="<?= $ROOT ?>assets/css/main.css" as="style">

@@ -1,7 +1,7 @@
 <?php
-$ROOT = './';
+$ROOT = '/';
 $PAGE_TITLE = 'Our Projects — BRADTEC CO. LTD';
-$PAGE_DESC = 'Explore BRADTEC projects across construction, mining, real estate and transportation — delivered with one standard of excellence.';
+$PAGE_DESC = 'Explore BRADTEC projects across construction, mining, real estate, transportation and imports/exports & distribution — delivered with one standard of excellence.';
 $PAGE_OG_IMAGE = 'https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=1200&q=80';
 $PAGE_CRUMBS = [['name' => 'Projects', 'url' => '/projects']];
 $PAGE_SCRIPTS = ['projects.js'];
@@ -9,16 +9,16 @@ require __DIR__ . '/partials/head.php';
 require __DIR__ . '/partials/header.php';
 
 $projects = json_read('projects.json', []);
-$categories = ['All', 'Construction', 'Mining', 'Real Estate', 'Transportation'];
+$categories = ['All', 'Construction', 'Mining', 'Real Estate', 'Transportation', 'Imports/Exports & Distribution'];
 ?>
 
 <main>
   <section class="page-hero">
-    <div class="bg-img" style="background-image:url('https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=1920&q=80')" aria-hidden="true"></div>
+    <div class="bg-img" style="background-image:url('https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=1200&q=75')" aria-hidden="true"></div>
     <div class="container">
       <p class="crumb"><a href="<?= $ROOT ?>">Home</a> <span class="sep">/</span> Projects</p>
       <h1>Our Projects</h1>
-      <p>Work we're proud of across construction, mining, real estate and transportation — each delivered to the BRADTEC standard.</p>
+      <p>Work we're proud of across construction, mining, real estate, transportation and imports/exports — each delivered to the BRADTEC standard.</p>
       <div class="accent-bar" aria-hidden="true"></div>
     </div>
   </section>
@@ -36,7 +36,7 @@ $categories = ['All', 'Construction', 'Mining', 'Real Estate', 'Transportation']
         <article class="card project-card reveal in-view" data-category="<?= e($p['category']) ?>">
           <button type="button" class="pc-link" data-project="<?= e($p['id']) ?>" style="display:block;width:100%;border:none;background:none;padding:0;text-align:left;cursor:pointer" aria-label="View project details: <?= e($p['name']) ?>">
             <div class="pc-media">
-              <img src="<?= e($p['image']) ?>" alt="<?= e($p['name']) ?>" loading="lazy">
+              <img src="<?= e(str_replace(['w=1200&q=80', 'w=1200'], ['w=600&q=75', 'w=600'], $p['image'])) ?>" alt="<?= e($p['name']) ?>" width="600" height="450" loading="lazy" decoding="async">
               <span class="pc-status <?= $p['status'] === 'Ongoing' || $p['status'] === 'In Progress' ? 'st-green' : ($p['status'] === 'Completed' ? '' : 'st-gray') ?>"><?= e($p['status']) ?></span>
             </div>
             <div class="pc-body">
@@ -64,7 +64,7 @@ $categories = ['All', 'Construction', 'Mining', 'Real Estate', 'Transportation']
     <div class="container">
       <div class="cta-band reveal">
         <h2>Have a project in mind?</h2>
-        <p>From construction and mining to real estate and transportation — let's plan it together.</p>
+        <p>From construction and mining to real estate, transportation and imports/exports — let's plan it together.</p>
         <a href="<?= $ROOT ?>contact" class="btn btn-green">Start a Conversation</a>
       </div>
     </div>

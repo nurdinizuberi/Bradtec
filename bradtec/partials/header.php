@@ -17,11 +17,19 @@ function nav_active(array $paths, string $uri): string {
 $logoExists = is_file(__DIR__ . '/../assets/images/logo.png') || is_file(__DIR__ . '/../assets/images/bradt.png');
 ?>
 <?php $logoFile = is_file(__DIR__ . '/../assets/images/logo.png') ? 'logo.png' : 'bradt.png'; ?>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M4MNX9NR"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <header class="site-header" id="siteHeader">
   <div class="container header-inner">
     <a href="<?= $ROOT ?>" class="brand" aria-label="<?= e($company['name']) ?> — Home">
       <?php if ($logoExists): ?>
-        <img src="<?= $ROOT ?>assets/images/<?= $logoFile ?>" alt="<?= e($company['name']) ?> logo" class="brand-logo">
+        <picture>
+          <source srcset="<?= $ROOT ?>assets/images/bradt.webp" type="image/webp" width="52" height="52">
+          <img src="<?= $ROOT ?>assets/images/<?= $logoFile ?>" alt="<?= e($company['name']) ?> logo" class="brand-logo" width="52" height="52" loading="eager" decoding="async">
+        </picture>
       <?php else: ?>
         <span class="brand-mark" aria-hidden="true">
           <span class="brand-mark-b"></span>
@@ -77,6 +85,15 @@ $logoExists = is_file(__DIR__ . '/../assets/images/logo.png') || is_file(__DIR__
                 <span>
                   <strong>Transportation</strong>
                   <small>Transport, logistics, import &amp; export solutions</small>
+                </span>
+              </a>
+              <a class="dropdown-item" href="<?= $ROOT ?>services/imports-exports">
+                <span class="di-icon di-blue">
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                </span>
+                <span>
+                  <strong>Imports/Exports &amp; Distribution</strong>
+                  <small>Global trade, customs clearance &amp; distribution</small>
                 </span>
               </a>
             </div>

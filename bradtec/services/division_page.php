@@ -55,7 +55,7 @@ require __DIR__ . '/../partials/header.php';
   <?php if ($division === null): ?>
   <!-- Division missing from services.json — render gracefully instead of crashing -->
   <section class="page-hero">
-    <div class="bg-img" style="background-image:url('https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=1920&q=80')" aria-hidden="true"></div>
+    <div class="bg-img" style="background-image:url('https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=1200&q=75')" aria-hidden="true"></div>
     <div class="container">
       <p class="crumb"><a href="<?= $ROOT ?>">Home</a> <span class="sep">/</span> <a href="<?= $ROOT ?>services">Services</a></p>
       <h1>Content Unavailable</h1>
@@ -89,7 +89,7 @@ require __DIR__ . '/../partials/header.php';
       </div>
       <div class="split-media reveal reveal-delay-1">
         <span class="sm-frame" aria-hidden="true"></span>
-        <img class="sm-main" src="<?= e(isset($ov['image']) ? $ov['image'] : $division['image']) ?>" alt="<?= e(isset($ov['alt']) ? $ov['alt'] : $division['name']) ?>" loading="lazy">
+        <img class="sm-main" src="<?= e(isset($ov['image']) ? $ov['image'] : $division['image']) ?>" alt="<?= e(isset($ov['alt']) ? $ov['alt'] : $division['name']) ?>" width="800" height="600" loading="lazy" decoding="async">
       </div>
     </div>
   </section>
@@ -132,7 +132,7 @@ require __DIR__ . '/../partials/header.php';
     <div class="container split">
       <div class="split-media reveal">
         <span class="sm-frame" aria-hidden="true"></span>
-        <img class="sm-main" src="<?= e($eq['image']) ?>" alt="<?= e($eq['alt']) ?>" loading="lazy">
+        <img class="sm-main" src="<?= e($eq['image']) ?>" alt="<?= e($eq['alt']) ?>" width="800" height="600" loading="lazy" decoding="async">
       </div>
       <div class="split-copy reveal reveal-delay-1">
         <span class="eyebrow"><?= e($eq['eyebrow']) ?></span>

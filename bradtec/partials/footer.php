@@ -22,7 +22,10 @@ $socialIcons = [
     <div class="footer-brand">
       <?php $logoFile = is_file(__DIR__ . '/../assets/images/logo.png') ? 'logo.png' : 'bradt.png'; ?>
       <?php if (is_file(__DIR__ . '/../assets/images/' . $logoFile)): ?>
-        <img src="<?= $ROOT ?>assets/images/<?= $logoFile ?>" alt="<?= e($company['name']) ?> logo" class="footer-logo">
+        <picture>
+          <source srcset="<?= $ROOT ?>assets/images/bradt.webp" type="image/webp" width="48" height="48">
+          <img src="<?= $ROOT ?>assets/images/<?= $logoFile ?>" alt="<?= e($company['name']) ?> logo" class="footer-logo" width="48" height="48" loading="lazy" decoding="async">
+        </picture>
       <?php else: ?>
         <span class="brand-text footer-brand-text">
           <span class="brand-name"><?= e($company['short_name']) ?><em>CO. LTD</em></span>
@@ -55,6 +58,7 @@ $socialIcons = [
         <li><a href="<?= $ROOT ?>services/mining">Mining</a></li>
         <li><a href="<?= $ROOT ?>services/real-estate">Real Estate</a></li>
         <li><a href="<?= $ROOT ?>services/transportation">Transportation</a></li>
+        <li><a href="<?= $ROOT ?>services/imports-exports">Imports/Exports &amp; Distribution</a></li>
       </ul>
     </nav>
 
@@ -84,7 +88,7 @@ $socialIcons = [
   <div class="footer-bottom">
     <div class="container footer-bottom-inner">
       <p>© <?= date('Y') ?> <?= e($company['name']) ?>. All Rights Reserved.</p>
-      <p class="footer-bottom-tag"><?= e($company['tagline']) ?> · Construction • Mining • Real Estate • Transportation</p>
+      <p class="footer-bottom-tag"><?= e($company['tagline']) ?> · Construction • Mining • Real Estate • Transportation • Imports/Exports &amp; Distribution</p>
     </div>
   </div>
 </footer>

@@ -1,23 +1,23 @@
 <?php
-$ROOT = './';
+$ROOT = '/';
 $PAGE_TITLE = 'Contact Us — BRADTEC CO. LTD';
-$PAGE_DESC = 'Get in touch with BRADTEC CO. LTD. Send an inquiry about construction, mining, real estate, transportation or partnerships.';
+$PAGE_DESC = 'Get in touch with BRADTEC CO. LTD. Send an inquiry about construction, mining, real estate, transportation, imports/exports or partnerships.';
 $PAGE_OG_IMAGE = 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80';
 $PAGE_CRUMBS = [['name' => 'Contact Us', 'url' => '/contact']];
 require __DIR__ . '/partials/head.php';
 require __DIR__ . '/partials/header.php';
 
 $company = load_company();
-$interests = ['Construction', 'Mining', 'Real Estate', 'Transportation', 'Import/Export', 'Partnership', 'General Inquiry'];
+$interests = ['Construction', 'Mining', 'Real Estate', 'Transportation', 'Imports/Exports & Distribution', 'Import/Export', 'Partnership', 'General Inquiry'];
 ?>
 
 <main>
   <section class="page-hero">
-    <div class="bg-img" style="background-image:url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1920&q=80')" aria-hidden="true"></div>
+    <div class="bg-img" style="background-image:url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=75')" aria-hidden="true"></div>
     <div class="container">
       <p class="crumb"><a href="<?= $ROOT ?>">Home</a> <span class="sep">/</span> Contact Us</p>
       <h1>Let's Build the Future Together.</h1>
-      <p>Reach out to our team for construction, mining, real estate, transportation or partnership opportunities — we respond promptly.</p>
+      <p>Reach out to our team for construction, mining, real estate, transportation, imports/exports or partnership opportunities — we respond promptly.</p>
       <div class="accent-bar" aria-hidden="true"></div>
     </div>
   </section>
@@ -155,14 +155,14 @@ $interests = ['Construction', 'Mining', 'Real Estate', 'Transportation', 'Import
       </div>
       <div class="card reveal" style="overflow:hidden;border-radius:var(--radius-lg)">
         <?php if (!empty($company['map_embed'])): ?>
-          <div style="position:relative;padding-top:56.25%">
+          <div style="position:relative;padding-top:40%;max-height:400px">
             <iframe src="<?= e($company['map_embed']) ?>" style="position:absolute;inset:0;width:100%;height:100%;border:0" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade" title="BRADTEC CO. LTD location map"></iframe>
           </div>
         <?php else: ?>
-          <div style="padding:70px 30px;text-align:center;background:var(--bg-soft)">
-            <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="var(--blue-mid)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="margin:0 auto 14px" aria-hidden="true"><path d="M12 21s-7-5.5-7-11a7 7 0 0 1 14 0c0 5.5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
-            <h3 style="margin-bottom:6px">Map placeholder</h3>
-            <p class="muted">Add your Google Maps embed in the admin dashboard → Company Information.</p>
+          <div style="padding:36px 24px;text-align:center;background:var(--bg-soft)">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--blue-mid)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="margin:0 auto 10px" aria-hidden="true"><path d="M12 21s-7-5.5-7-11a7 7 0 0 1 14 0c0 5.5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+            <h3 style="margin-bottom:4px;font-size:1rem">Map placeholder</h3>
+            <p class="muted" style="font-size:0.875rem">Add your Google Maps embed in the admin dashboard → Company Information.</p>
           </div>
         <?php endif; ?>
       </div>
